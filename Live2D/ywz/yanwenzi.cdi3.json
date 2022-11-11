@@ -1,0 +1,118 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左眼　开闭"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右眼"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "眼珠 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "眼珠 Y"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "嘴　张开和闭合"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "常规"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "无语"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "哭"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "开心"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "开心甩手手"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "",
+			"Name": "惊讶"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "惊讶甩手手"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "常规"
+		},
+		{
+			"Id": "Part2",
+			"Name": "生气"
+		},
+		{
+			"Id": "Part3",
+			"Name": "哭"
+		},
+		{
+			"Id": "Part4",
+			"Name": "开心"
+		},
+		{
+			"Id": "Part5",
+			"Name": "惊讶"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		],
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		]
+	]
+}
